@@ -4,7 +4,20 @@
 *.swp
 *.swo
 *~
+*.iml
+.project
+.classpath
+.settings/
+.factorypath
+connectcamp/
+
+# OS generated files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# AI and local tooling
+.opencode/
 
 # Environment variables
 .env
@@ -18,15 +31,31 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# Temporary files
+# Node / Angular Build & Dependencies
+node_modules/
+dist/
+.angular/
+.npm/
+coverage/
+
+# Java / Maven Build Artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary, text, and scratch files
 *.tmp
 *.temp
+*.bak
+*.txt
 build_*.txt
 nul
 stat.txt
 
-# Documentation and notes
-CONSTITUTION.md
-PATTERNS.md
-PROJECT_OVERVIEW.txt
-PROJECT_STATE.md
+# Documentation & Markdown files (exclude everything except root project README)
+*.md
+**/*.md
+!/README.md
+docs/
