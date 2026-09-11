@@ -13,7 +13,6 @@ ConnectCamp is a comprehensive camping and outdoor adventure platform that conne
 - [Configuration](#configuration)
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## ✨ Features
 
@@ -209,10 +208,6 @@ We welcome contributions! Please follow these steps:
 - Add tests for new features
 - Update documentation as needed
 
-## 📄 License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Authors
 
 - Your Name - Initial work
@@ -223,9 +218,6 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 - Inspired by the camping community
 - Built with modern web technologies
 
-## 📞 Support
-
-For support, email support@connectcamp.com or open an issue in the repository.
 
 ---
 
